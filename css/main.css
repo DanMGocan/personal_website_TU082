@@ -1,0 +1,59 @@
+* {
+    /* border: 1px beige solid; */
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+#main-section a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+    opacity: 0.80
+  }
+
+#profile-picture {
+    border: 15px gray outset;
+    border-radius: 5%;
+}
+
+.menu-icon {
+    height: 25px;
+    width: 25px;
+    transition: 150ms linear;
+    
+
+}
+
+.menu-icon:hover {
+    transform: scale(1.25);
+    color: white;
+    
+}
+
+#main-section {
+    height: 100vh
+}
+
+#main-title {
+    color: aliceblue;
+    margin-top: 10%;
+    text-shadow: 4px 4px 4px #000000;
+
+}
+
+#main-subtitle {
+    color: aliceblue;
+    text-align: justify;
+    text-justify: inter-word;
+    text-shadow: 4px 4px 4px #000000;
+}
+

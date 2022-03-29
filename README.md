@@ -1,0 +1,1 @@
+# Source for the video: https://pixabay.com/videos/black-black-friday-background-loop-13495/
