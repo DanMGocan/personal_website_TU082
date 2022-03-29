@@ -4,10 +4,14 @@
     font-family: 'Red Hat Mono', monospace;
 }
 
+#main-section {
+    height: 100vh
+}
+
 #main-section a {
     text-decoration: none;
     color: whitesmoke;
-    
+   
 }
 
 #background-video {
@@ -21,32 +25,48 @@
   }
 
 #profile-picture {
-    border: 15px gray outset;
-    border-radius: 5%;
+    border: 15px gray inset;
+    border-radius: 15%;
+}
+
+#video-interview-button {
+    border: 0;
+}
+#video-interview-button:hover {
+    background-color: red;
+    color: whitesmoke;
+    transition: 250ms linear;
+}
+
+#video-interview-youtube {
+    fill: red;
+    width: 16px;
+    height: 16px;
+}
+#video-interview-button:hover #video-interview-youtube {
+    fill: whitesmoke;
+    transition: 250ms linear;
 }
 
 .menu-icon {
     height: 25px;
     width: 25px;
     transition: 150ms linear;
-    
-
 }
 
 .menu-icon:hover {
     transform: scale(1.25);
-    color: white;
-    
+    color: white;  
 }
 
-#main-section {
-    height: 100vh
+#linkedin-icon {
+    fill:  #2867B2;
 }
 
 #main-title {
     color: aliceblue;
-    margin-top: 10%;
     text-shadow: 4px 4px 4px #000000;
+    margin-top: 10%;
 
 }
 
@@ -55,5 +75,9 @@
     text-align: justify;
     text-justify: inter-word;
     text-shadow: 4px 4px 4px #000000;
+}
+
+#dan {
+    color: orange;
 }
 

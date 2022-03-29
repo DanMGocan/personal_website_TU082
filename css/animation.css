@@ -1,0 +1,35 @@
+@keyframes orange-border {
+    0% {
+        border: 15px gray inset;
+    }
+
+    100% {
+        border: 15px orange inset;
+    }
+}
+
+@keyframes gray-border {
+    0% {
+        border: 15px orange inset;
+    }
+
+    100% {
+        border: 15px gray inset;
+    }
+} 
+    
+
+.border-animation-orange {
+    animation: orange-border;
+    animation-duration:  1s;
+    animation-fill-mode: forwards;
+    border-radius: 15%;
+}
+
+.border-animation-gray {
+    animation: gray-border;
+    animation-duration:  1s;
+    animation-fill-mode: forwards;
+    border-radius: 15%;
+    
+}
