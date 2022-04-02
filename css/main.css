@@ -25,7 +25,7 @@
   }
 
 #profile-picture {
-    border: 15px gray inset;
+    border: 15px lightgrey inset;
     border-radius: 15%;
 }
 
@@ -39,7 +39,7 @@
 }
 
 #video-interview-youtube {
-    fill: red;
+    fill: gray;
     width: 16px;
     height: 16px;
 }
