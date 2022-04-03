@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Custom CSS -->
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/pastprojects.css" rel="stylesheet">
+
+    <!-- Importing the required font for the website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0;1,400&display=swap" rel="stylesheet">
+
+    <title>Past Projects</title>
+  </head>
+  <body>
+
+    <!-- Adding the video for the background, in a fixed position -->
+    <video autoplay muted loop id="background-video">
+        <source src="../media/video/background.mp4" type="video/mp4">
+    </video>
+
+    <!-- The main section for the Past Projects page -->
+    <section id="aboutme-section" class="container-fluid d-flex align-content-center flex-wrap">
+        <div class="col-12">
+
+            <!-- Home button -->
+            <div class="col-12 col-sm-10 col-md-8 col-xl-7 pt-5 mx-auto">
+                <a href="../index.html" class="btn btn-light" id="home-button">
+                    <span class="px-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-house" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+    
+            <!-- Page title -->
+            <div class="col-12 col-sm-10 col-md-8 col-xl-7 pt-5 mx-auto">
+                <h1 id="past-projects-title">Past projects</h1>
+            </div>
+
+            <!-- Using the Bootstrap classes to quickly style the table -->
+            <div class="col-12 col-sm-10 col-md-8 col-xl-7 pt-5 mx-auto">
+                <table class="table table-dark" id="main-table">
+
+                    <thead>
+                      <tr>
+                        <th class="p-3" scope="col">Date completed</th>
+                        <th class="p-3" scope="col">Project name</th>
+                        <th class="p-3" scope="col">Built in</th>
+                        <th class="p-3" scope="col">GitHub repository</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td class="p-3">5th of February, 2021</td>
+                        <td class="p-3">Age of Empires 2: API</td>
+                        <td class="p-3">ExpressJS, NodeJS, HTML</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/aoe2api-test" target="_blank">https://github.com/DanMGocan/aoe2api-test</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">4th of March, 2021</td>
+                        <td class="p-3">Mobile Mailroom</td>
+                        <td class="p-3">HTML, CSS, JavaScript</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/mobilemailroom" target="_blank">https://github.com/DanMGocan/mobilemailroom</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">25th of October, 2021</td>
+                        <td class="p-3">Age of Empires 2: Webscraper</td>
+                        <td class="p-3">Python, Beautiful Soup</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/aoe2py_webscraper" target="_blank">https://github.com/DanMGocan/aoe2py_webscraper</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">30th of September, 2021</td>
+                        <td class="p-3">Blackjack</td>
+                        <td class="p-3">Python</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/blackjack_py" target="_blank">https://github.com/DanMGocan/blackjack_py</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">8th of Octomber, 2021</td>
+                        <td> class="p-3"Decimal Converter</td>
+                        <td class="p-3">Python</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/dec_bin_hex_converter" target="_blank">https://github.com/DanMGocan/dec_bin_hex_converter</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">31st of January, 2022</td>
+                        <td class="p-3">Bookr</td>
+                        <td class="p-3">Python, Django</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/wdwj_bookr" target="_blank">https://github.com/DanMGocan/wdwj_bookr</a></td>
+                      </tr>
+                      <tr>
+                        <td class="p-3">03rd of April, 2022</td>
+                        <td class="p-3">Personal Website</td>
+                        <td class="p-3">HTML, CSS</td>
+                        <td class="p-3"><a href="https://github.com/DanMGocan/personal_website_TU082" target="_blank">https://github.com/DanMGocan/personal_website_TU082</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+       
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle script, necessary to access all functionality of Bootstrao -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+  </html>

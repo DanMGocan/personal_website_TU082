@@ -48,6 +48,14 @@
     transition: 250ms linear;
 }
 
+#video-interview-text {
+    color: black;
+}
+
+#video-interview-text:hover {
+    color: white;
+}
+
 .menu-icon {
     height: 25px;
     width: 25px;
@@ -60,7 +68,9 @@
 }
 
 #linkedin-icon {
-    fill:  #2867B2;
+    /* Original logo colour, seems to dark but leaving the hex code here */
+    /*fill:  #2867b2;*/
+    fill: #3d94ff
 }
 
 #main-title {
@@ -81,3 +91,13 @@
     color: orange;
 }
 
+#home-button:hover {
+    transform: scale(1.1);
+    transition: all 250ms;
+}
+
+#footer {
+    color: whitesmoke;
+    position: fixed;
+    bottom: 1%;
+}

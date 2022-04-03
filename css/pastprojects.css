@@ -1,0 +1,13 @@
+* {
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#main-table {
+    border: 5px darkgray double;
+}
